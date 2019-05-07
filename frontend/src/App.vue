@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <EmailValidate/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import EmailValidate from './components/EmailValidate';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    EmailValidate,
   },
 };
 </script>
